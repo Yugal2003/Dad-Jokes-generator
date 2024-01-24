@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to left bottom,lightblue,lightpink,lightblue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    padding: 25px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 2px 5px 10px rgba(0,0, 0, 0.3);
+}
+.heading{
+    letter-spacing: 3px;
+    font-weight:100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkgreen;
+    text-shadow: 4px 4px 1px rgba(133, 136, 133);
+}
+.joke_name{
+    margin: 45px;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight:100;    
+    color: darkgreen;
+}
+.btn{
+    font-weight:600;    
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: darkgreen;
+    padding: 10px 60px;
+    background-color: rgba(255, 255, 255,0.3);
+}
+.btn:hover{
+    box-shadow: 2px 5px 10px rgba(112, 110, 110, 0.3);
+}
